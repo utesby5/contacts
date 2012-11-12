@@ -14,5 +14,5 @@ fwrite($file,"$first_name,$last_name,$email,$phone,$timestamp\n");
 fclose($file);
 
 // Redirect to the list of contacts
-header('Location:../')
+header('Location:../');
 ?>
